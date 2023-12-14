@@ -1,0 +1,161 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+article
+{
+    width: 40%;
+    float: left;
+
+
+}
+
+aside
+{
+    width: 60%;
+    float: left;
+}
+.part1 .image .imgavt
+{
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+.part1
+{
+    background: #333;
+    color: #fff;
+}
+.introduce_1
+{
+    margin-top:10px ;
+}
+
+.introduce_1 .box1 .title
+{
+    padding-bottom: 5px;
+    margin-left: 30px;
+    border-bottom: 2px solid yellow;
+
+}
+
+.introduce_1 .box1 .title h4
+{
+    color: aqua;
+}
+
+.introduce_1 .box1 .content
+{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.introduce_1 .box1 .content h5
+{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.introduce_1 .box1 .content h6
+{
+    font-size: 15px;
+}
+
+.contact
+{
+    margin-top: 20px;
+
+}
+
+.contact .box1 .title
+{
+    padding-bottom: 5px;
+    margin-left: 30px;
+    border-bottom: 2px solid yellow;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.contact .box1 .content .box2
+{
+    display: flex;
+    margin-left:50px ;
+}
+
+.contact .box1 .content .box2 i
+{
+    margin-right: 10px;
+}
+
+.part2 .name
+{
+    background: yellow;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.part2 .name .box3
+{
+    margin-left: 100px;
+}
+.part2 .name .box3 h1{
+    font-size: 40px;
+}
+.part2 .name .box3 p
+{
+    font-size: 25px;
+}
+.part2 .aboutme .box4
+{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.part2 .aboutme .box4 h2{
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    color: rgb(127, 136, 255);
+}
+.part2 .aboutme .box4 p{
+    font-size: 15px;
+}
+.part2 .aboutme .box4 ul
+{
+    margin-left: 20px;
+}
+
+.tag-content1 
+{
+    padding: 20px;
+}
+
+
+.tag-content1 .progress-title
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding:0;
+}
+
+.progress-wrap
+{
+    width: 100%;
+    height: 10px;
+    background-color: #999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.progress
+{
+    width: 50%;
+    height: 10px;
+    background: #db5eb6;
+}
+

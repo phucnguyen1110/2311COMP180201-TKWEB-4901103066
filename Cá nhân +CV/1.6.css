@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: url(bgr1.webp)  no-repeat;
+    background-size: cover;
+
+}
+
+.heading{
+    text-align: center;
+}
+
+section .imgavt
+{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.about
+{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.about h2
+{
+    font-size: 35px;
+}
+.about h5
+{
+    font-size: 20px;
+}
+
+.about span
+{
+    color:aqua;
+    font-size: 25px;
+    
+}
+.about a button
+{
+    font-size: 25px;
+}
+.hobby 
+{
+    margin-top: 20px;
+    text-align: center;
+}
+.hobby h2{
+    font-size: 35px;
+}
+
+.hobby .box-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+
+}
+
+.hobby .box-container .box
+{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.hobby .box-container .box img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.hobby .box-container .box:hover img
+{
+    transform: scale(1.2);
+
+}
+
+.contact{
+    text-align: center;
+    
+}
+.contact h2{
+    margin-bottom: 10px;
+}
+.contact h5 span{
+    font-size: 25px;
+    color: aqua;
+}
+
+.contact h5{
+    font-size: 20px;
+}
+
+.contact h5 a button
+{
+    font-size: 20px;
+}
+
+.khht
+{
+    text-align: center;
+    font-size: 35px;
+}
+.table
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    
+}
+.btn
+{
+    background: #db5eb6;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.btn:hover
+{
+    background: aqua;
+    color: black;
+}
